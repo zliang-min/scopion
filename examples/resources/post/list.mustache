@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Scopion Test</title>
+  </head>
+  <body>
+    <header>Gimi's Blog</header>
+    <ol>
+      {{# posts}}
+      <li>{{title}} - <span>Created at: <time>{{created_at}}</time></span></li>
+      {{/ posts}}
+    </ol>
+  </body>
+</html>
